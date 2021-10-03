@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "VOAuto",
+    "version": "0.1",
+    "description": "VO automation",
+    "action": {
+        "default_icon": {
+            "128": "img/icons128.png",
+            "48": "img/icons48.png",
+            "16": "img/icons16.png"
+        }
+    },
+    "icons": {
+        "128": "img/icons128.png",
+        "48": "img/icons48.png",
+        "16": "img/icons16.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab", "scripting", "notifications"
+    ]
+}
