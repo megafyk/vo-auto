@@ -9,6 +9,8 @@
 - Support multi document file extension: docx, xlsx,...
 - Improve performance
 - Auto do elearning test
+- Integrate with os notification:
+https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API
 - ...
 
 ## Alternative
