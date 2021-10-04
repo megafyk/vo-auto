@@ -95,7 +95,7 @@ async function run() {
         return;
     }
     for (let i = currPageVal; i <= totalPageVal; i++) {
-        let currIdx = 1;
+        let currIdx = 0;
         let pageSize = findByTextContent('.pdf', document.querySelectorAll('a'), false).length;
         while (currIdx < pageSize) {
             await sleep(3000)
